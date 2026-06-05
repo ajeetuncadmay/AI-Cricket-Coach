@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Node modules and build files
+node_modules/
+dist/
+.eslintcache
+
+# Databases and Logs
+*.db
+*.log
+backend_final.log
+backend_run.log
+
+# Environment files (Passwords/API keys)
+.env
+
+# Uploaded media and temporary files
+backend/uploads/reports/*.jpg
+*.pdf
+test.pdf
+report_13.pdf
+build_error.txt
