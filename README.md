@@ -1,5 +1,71 @@
 # AI Cricket Coach
-
+```bash
+AI-Cricket-Coach/
+│
+├── images/                
+│   ├── dashboard.png
+│   ├── upload-page.png
+│   ├── report.png
+│   └── login.png
+│
+├── backend/
+│   ├── app/
+│   │   ├── routers/
+│   │   │   ├── auth.py
+│   │   │   ├── video.py
+│   │   │   └── reports.py
+│   │   │
+│   │   ├── models/
+│   │   │   ├── user.py
+│   │   │   └── analysis.py
+│   │   │
+│   │   ├── services/
+│   │   │   ├── mediapipe_service.py
+│   │   │   ├── scoring_service.py
+│   │   │   └── pdf_service.py
+│   │   │
+│   │   ├── database.py
+│   │   ├── schemas.py
+│   │   └── main.py
+│   │
+│   ├── uploads/
+│   ├── cricket_coach.db
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── .env
+│
+├── frontend/
+│   ├── public/
+│   │   └── logo.png
+│   │
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   └── UploadVideo.jsx
+│   │   │
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── ScoreCard.jsx
+│   │   │   └── Charts.jsx
+│   │   │
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── package.json
+│   ├── vite.config.js
+│   └── Dockerfile
+│
+├── README.md
+├── docker-compose.yml
+├── nginx.conf
+├── .gitignore
+└── LICENSE
+```
 A production-ready SaaS platform that analyzes batting and bowling videos, calculates joint angles using MediaPipe, and generates performance reports.
 
 ## Features
