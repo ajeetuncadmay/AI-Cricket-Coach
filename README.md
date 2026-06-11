@@ -66,7 +66,13 @@ AI-Cricket-Coach/
 ├── .gitignore
 └── LICENSE
 ```
-A production-ready SaaS platform that analyzes batting and bowling videos, calculates joint angles using MediaPipe, and generates performance reports.
+
+
+## **📊 AI Performance Analysis**
+
+![AI Cricket Coach Performance Analysis](frontend/src/AI%20cricket%20coach%20performance%20analysis.png)
+AI Performance Analysis tracks key body joints like elbows, shoulders, and knees to calculate precise movement angles during a shot or delivery. It uses advanced computer vision to instantly identify technique flaws and provide data-driven feedback to improve your game. A production-ready SaaS platform that analyzes batting and bowling videos, calculates joint angles using MediaPipe, and generates performance reports.
+
 
 ## Features
 - **Authentication**: JWT-based Secure Login & Registration.
