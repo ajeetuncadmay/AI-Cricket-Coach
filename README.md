@@ -68,11 +68,15 @@ AI-Cricket-Coach/
 ```
 
 
-## **📊 AI Performance Analysis**
+## **📈 AI Cricket Coach Dashboard Overview**
 
-![AI Cricket Coach Performance Analysis](frontend/src/AI%20cricket%20coach%20performance%20analysis.png)
-AI Performance Analysis tracks key body joints like elbows, shoulders, and knees to calculate precise movement angles during a shot or delivery. It uses advanced computer vision to instantly identify technique flaws and provide data-driven feedback to improve your game. A production-ready SaaS platform that analyzes batting and bowling videos, calculates joint angles using MediaPipe, and generates performance reports.
+Take a look at the comprehensive overview of the coaching system:
 
+<img src="frontend/src/AI cricket coach dashboard overview.png" alt="AI Cricket Coach Dashboard Overview" width="100%">
+
+### **📌 Dashboard Overview:**
+* Provides a centralized hub to quickly monitor recent upload statuses, overall player progress scores, and active coaching sessions.
+* Features a responsive navigation panel designed to give coaches and players quick access to deep-dive analytics and performance summaries.
 
 ## Features
 - **Authentication**: JWT-based Secure Login & Registration.
@@ -81,10 +85,40 @@ AI Performance Analysis tracks key body joints like elbows, shoulders, and knees
 - **Automated Reports**: Generates downloadable PDF reports with technique tips.
 - **Dashboard**: Track your progress over time visually using Chart.js.
 
+
+
+## **📊 AI Performance Analysis** 
+Here is a sneak peek of the **AI Cricket Coach Performance Analysis Dashboard** in action:
+
+
+<img src="frontend/src/AI cricket coach performance analysis.png" alt="AI Cricket Coach Performance Analysis" width="100%">
+
+### 🔍 Key Features of Analysis:
+
+* **Real-time Pose Estimation:** Utilizes MediaPipe to accurately track 33 body keypoints, focusing on shoulder, elbow, hip, and knee tracking.
+* **Biomechanical Angle Calculation:** Automatically measures critical joint angles during the execution of a shot or delivery (e.g., elbow extension during bowling, front-foot knee flexion during a drive).
+* **Frame-by-Frame Breakdown:** Visualizes the dynamic breakdown of the player's movement posture to pinpoint flaws.
+* **Instant Actionable Insights:** Generates a comprehensive performance score based on optimal cricket techniques and industry standards.
+
 ## Tech Stack
 - **Backend**: Python 3.11, FastAPI, SQLAlchemy, MediaPipe, OpenCV, Passlib, ReportLab.
 - **Frontend**: React, Vite, Tailwind CSS, Axios, Chart.js.
 - **Deployment**: Docker & Docker Compose setup, with optional Nginx proxy.
+
+
+
+## **📊 AI Cricket Coaching Dashboard Design**
+
+
+Here is the design interface for the **AI Cricket Coaching Dashboard**:
+
+<img src="frontend/src/AI cricket coaching dashboard design.png" alt="AI Cricket Coaching Dashboard Design" width="100%">
+
+### **✨ Key Interface Features:**
+
+* **Interactive Analytics Layout:** Clean and modern dashboard UI designed specifically for players and coaches to track performance metrics over time.
+* **Visual Progress Tracking:** Integrated with dynamic charts and graphs to visualize improvements in batting or bowling consistency.
+* **Session Management:** Easy-to-navigate sidebar and modules to upload new clips, view past reports, and manage historical coaching data.
 
 ## Step-by-Step Run Instructions
 
